@@ -47,27 +47,15 @@
 git clone https://github.com/i-eloyse/anime-list-app.git
 cd anime-list-app
 2. Instale as dependências
-bash
-Copiar
-Editar
 npm install
 # ou
 yarn install
 3. Instale os pods (apenas iOS)
-bash
-Copiar
-Editar
 npx pod-install
 4. Execute o app
-bash
-Copiar
-Editar
 npx expo start
 
 📂 Estrutura de Pastas
-bash
-Copiar
-Editar
 /screens
   ├── HomeScreen.js
   ├── FavoritesScreen.js
@@ -77,9 +65,9 @@ Editar
 /components
 /assets
 /utils
-
 App.js
 app.json
+
 🔑 API
 Este app utiliza a Jikan API, uma interface pública para dados do MyAnimeList.
 
@@ -98,27 +86,17 @@ Este app utiliza a Jikan API, uma interface pública para dados do MyAnimeList.
 
 🧑‍💻 Contribuindo
 Contribuições são super bem-vindas! Para colaborar:
-
 Faça um fork deste repositório
 
 Crie uma nova branch:
-
-bash
-Copiar
-Editar
 git checkout -b feature/minha-feature
+
 Commit suas alterações:
-
-bash
-Copiar
-Editar
 git commit -am 'feat: adiciona nova feature'
-Push para o repositório:
 
-bash
-Copiar
-Editar
+Push para o repositório:
 git push origin feature/minha-feature
+
 Abra um Pull Request no GitHub 🚀
 
 📃 Licença
